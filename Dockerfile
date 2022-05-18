@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/karinaeg/miprimerdocker /home/
 
-CMD ["bash", "/home/miprimerdocker/scripts/hola.sh"]
+CMD ["bash", "/home/scripts/hola.sh"]
