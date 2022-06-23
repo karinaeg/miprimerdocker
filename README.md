@@ -18,13 +18,20 @@ Una vez que esté correctamente instalado, lo primero que haremos será crear un
 ```
 mkdir dockerejemplo
 ```
-Ya creada la carpeta, abrimos el editor de texto nano y escribimos un mensaje para después guardar el mensaje con cualquier nombre, en este caso el archivo
-
+Ya creada la carpeta, abrimos el editor de texto nano y escribimos un mensaje para después guardar el mensaje con cualquier nombre, en este caso el archivo se llama kari/ejemplo
 ```
 nano
 ```
-
 El comando docker build crea imágenes Docker a partir de un Dockerfile y un "contexto". En este caso se llama kari/ejemplo, y se corre de la siguiente manera:
 ```
 docker build -t kari/ejemplo
 ```
+Para ver las características se utiliza el comando:
+```
+docker images
+```
+ Para verlo, utilizamos el comando
+ ```
+docker run kari/ejemplo
+```
+ 
