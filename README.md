@@ -8,5 +8,13 @@ En términos simples, Docker es una plataforma de software abierta para desarrol
 
 El primer paso a seguir, es intalar Docker en nuestra computadora, en el siguiente link se encuentran los pasos para poder instalarlo: https://docs.docker.com/desktop/windows/install/ 
 
-Una vez instalado, para asegurarse de que esté instalado es necesario abrir la terminal y escribir:
+Para asegurarse de que esté instalado es necesario abrir la terminal y escribir:
 `docker version` 
+
+## Usando Docker
+
+Una vez que esté correctamente instalado, lo primero que haremos será crear una carpeta:
+```
+
+mkdir dockerejemplo
+```
